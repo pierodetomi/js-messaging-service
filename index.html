@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Messaging Service</title>
+    </head>
+
+    <body>
+        <!-- Component #1 - AppContent -->
+        <div class="app-content">
+            <strong id="name-label">Jack Jones</strong>
+            <p>TIP: Click the button below to change the name</p>
+        </div>
+
+        <hr />
+
+        <!-- Component #2 - ActionBar -->
+        <div class="action-bar">
+            <button onclick="actionBar.changeName()">Change Name</button>
+        </div>
+
+        <script src="services/messaging-service.js"></script>
+        <script src="components/app-content.component.js"></script>
+        <script src="components/action-bar.component.js"></script>
+        <script>
+            var appContent = new AppContent("#name-label");
+            var actionBar = new ActionBar();
+        </script>
+    </body>
+</html>

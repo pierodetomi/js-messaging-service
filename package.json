@@ -1,0 +1,22 @@
+{
+  "name": "js-messaging-service",
+  "version": "1.0.0",
+  "description": "A very simple plain-JavaScript Messaging Service module ready to use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierodetomi/js-messaging-service.git"
+  },
+  "author": "Piero De Tomi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pierodetomi/js-messaging-service/issues"
+  },
+  "homepage": "https://github.com/pierodetomi/js-messaging-service#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
